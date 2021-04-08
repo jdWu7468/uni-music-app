@@ -1,3 +1,7 @@
+# uni-music-app
+
+> 基于React+AntDesign的聚合音乐
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -15,6 +15,7 @@
 
 .App-header {
   background-color: #282c34;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +28,24 @@
 .App-link {
   color: #61dafb;
 }
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  color: #fff;
+  font-size: 25px;
+  line-height: 31px;
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +54,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.menu{
+  width: 500px;
+}
+.searchInput{
+  float: right;
+  width: 200px;
 }

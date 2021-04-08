@@ -1,0 +1,10 @@
+.searchInputDiv{
+    width: 100%;
+    text-align: center;
+}
+.inputWidth{
+    width: 300px;
+}
+.searchResult{
+    margin-top: 30px;
+}

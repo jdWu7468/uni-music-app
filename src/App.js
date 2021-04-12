@@ -44,13 +44,13 @@ class App extends Component  {
             <Menu.Item key="2"><a href='#/myMusic'>我的音乐</a></Menu.Item>
             <Menu.Item key="3"><a href='#/firstView'>样式选择</a></Menu.Item>
           </Menu>
-          <Search
+          {/* <Search
             placeholder="请输入音乐名称"
             className="searchInput"
             enterButton="查询"
             size="large"
             prefix={<MehOutlined />}
-            onSearch={this.onSearch.bind(this)}/>
+            onSearch={this.onSearch.bind(this)}/> */}
         </Header>
         <Content style={{ padding: '0 50px' }}>
           <Breadcrumb style={{ margin: '16px 0' }}>

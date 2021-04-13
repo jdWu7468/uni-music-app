@@ -5,9 +5,36 @@
 .inputWidth{
     width: 500px;
 }
+.main{
+    width: 100%;
+}
 .searchResult{
-    margin-top: 30px;
+    width: 70%;
+    float: left;
 }
 .pagination{
-    padding-left:40%;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.audioAndLRC{
+    width: 30%;
+    float: left;
+    
+}
+.audio{
+    display: block;
+    margin: auto;
+    margin-top:10px
+}
+.lrcArea{
+    margin-top: 10px;
+    text-align: center;
+    height: 450px;
+    overflow: auto;
+    padding: 0 30px;
+}
+.ant-table table{
+    height:390px !important;
 }

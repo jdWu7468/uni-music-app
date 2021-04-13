@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { notification } from 'antd';
 axios.defaults.headers['Content-Type'] = 'application/json';
 
 
@@ -27,6 +28,19 @@ _axios.interceptors.response.use(
   },
   (error) => {
     // Do something with response error
+    switch(error.response.status){
+      case 504:
+        notification.open({
+          message: '┗|｀O′|┛ 嗷~~',
+          duration:3,
+          description:
+            "要不你连下网络试试",
+          onClick: () => {
+            console.log('Notification Clicked!');
+          },
+        });
+    }
+    
     return Promise.reject();
   }
 );
